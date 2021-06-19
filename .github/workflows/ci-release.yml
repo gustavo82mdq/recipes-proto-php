@@ -3,7 +3,7 @@
 name: Release
 
 on:
-  push:
+  create:
     tags: ['*']
 
 jobs:
