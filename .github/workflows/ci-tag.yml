@@ -1,0 +1,20 @@
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Release
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Auto Tagger
+        # You may pin to the exact commit or the version.
+        # uses: VegetableGarden/beet@83090220f2d42895368597f11e5a8582bdc32939
+        uses: VegetableGarden/beet@0.0.3
