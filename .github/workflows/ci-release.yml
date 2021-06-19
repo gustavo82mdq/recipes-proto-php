@@ -14,8 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Auto Tagger
-
       - name: Create Release
         id: create_release
         uses: actions/create-release@latest
