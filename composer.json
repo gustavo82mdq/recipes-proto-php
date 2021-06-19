@@ -1,7 +1,13 @@
 {
-    "name": "gustavo/recipes-proto-php",
+    "name": "gustavo82mdq/recipes-proto-php",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Tajes Genga",
+            "email": "gustavo82mdq@gmail.com"
+        }
+    ],
     "minimum-stability": "stable",
     "require": {}
 }
