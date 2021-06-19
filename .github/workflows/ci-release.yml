@@ -4,7 +4,8 @@ name: Release
 
 on:
   create:
-    tags: ['*']
+    tags:
+      - '*'
 
 jobs:
   build:
