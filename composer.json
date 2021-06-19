@@ -1,0 +1,7 @@
+{
+    "name": "gustavo/recipes-proto-php",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
